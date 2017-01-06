@@ -15,7 +15,7 @@ class ShareGetter {
 	/////////
 
 	public function set_app_id($id){
-		$this->app_id = $app_id;
+		$this->app_id = $id;
 	}
 
 	public function set_app_secret($secret){
