@@ -1,0 +1,19 @@
+{
+    "name": "chrisgherbert/facebook-share-count-for-url",
+    "description": "Get Facebook share counts for a URL",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chris Herbert",
+            "email": "chrisgherbert@gmail.com"
+        }
+    ],
+    "require": {
+        "curl/curl": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyFacebookShareCount\\": "src/"
+        }
+    }
+}
