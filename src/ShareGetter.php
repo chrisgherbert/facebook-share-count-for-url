@@ -55,7 +55,7 @@ class ShareGetter {
 		$curl->get($url);
 
 		if ($curl->error){
-			return 'Error: ' . $curl->errorCode . ': ' . $curl->errorMessage();
+			return 'Error: ' . $curl->errorCode . ': ' . $curl->errorMessage;
 		}
 
 		return $curl->response;
