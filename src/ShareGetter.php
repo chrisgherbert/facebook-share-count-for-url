@@ -2,7 +2,7 @@
 
 namespace EasyFacebookShareCount;
 
-use Curl\Curl;
+use \Curl\Curl;
 
 class ShareGetter {
 
